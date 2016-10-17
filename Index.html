@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html><head>
+		<title>Калькулятор</title>
+		<meta charset="utf-8"></meta>
+	<link href="media/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div>
+<div class="title"><h2>Калькулятор V1.4</h2></div>
+	<div class="main">
+  <input type="text" class="pin" id="pin" value="" readonly name="input"></input>
+		<div>
+<input value="(" readonly id="bktl" onclick="foo(bktl)"></input>
+<input value=")" readonly id="bktr" onclick="foo(bktr)"></input>
+<input value="/" readonly id="del" onclick="foo(del)"></input>
+<input value="<" readonly id="undo" onclick="foo(undo)"></input>
+<input value="7" readonly id="seven" onclick="foo(seven)"></input>
+<input value="8" readonly id="eigth" onclick="foo(eigth)"></input>
+<input value="9" readonly id="nine" onclick="foo(nine)"></input>
+<input value="*" readonly id="multiply" onclick="foo(multiply)"></input>
+<input value="4" readonly id="four" onclick="foo(four)"></input>
+<input value="5" readonly id="five" onclick="foo(five)"></input>
+<input value="6" readonly id="six" onclick="foo(six)"></input>
+<input value="-" readonly id="minus" onclick="foo(minus)"></input>
+<input value="1" readonly id="one" onclick="foo(one)"></input>
+<input value="2" readonly id="two" onclick="foo(two)"></input>
+<input value="3" readonly id="three" onclick="foo(three)"></input>
+<input value="+" readonly id="sum" onclick="foo(sum)"></input>
+<input value="0" readonly id="zero" onclick="foo(zero)"></input>
+<input value="." readonly id="point" onclick="foo(point)"></input>
+<input value="=" readonly id="submit" onclick="isSubmit()"></input>
+<input value="C" readonly id="cancel" onclick="foo(cancel)"></input>
+<div>
+	<textarea class="history" id="history" ></textarea>
+</div>
+		</div>
+	<script src="media/my.js"></script>
+	</div>
+ </div>
+</body></html>
